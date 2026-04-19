@@ -1,0 +1,443 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+}
+
+header{
+    text-align: center;
+    position: sticky;
+    padding-top: 10px;
+    box-shadow: 5px 5px 10px rgba(121, 121, 121, 0.5);
+    position: sticky;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header li{
+    display: inline-block;
+    width: 4%;
+}
+
+header>ul{
+    padding: 0px;
+    text-align: center;
+}
+
+header a{
+    position: relative;
+    bottom: 25px;
+}
+
+header a:hover, a.home-active{
+    color: #ad9966;
+}
+
+.abas-site1{
+    top: 81px;
+    right: 340px;
+    position: relative;
+}
+
+.abas-site2{
+    position: relative;
+    bottom: 23px;
+    left: 325px;
+}
+
+.li-Pages{
+    bottom: 22px;
+}
+
+.li-Pages:hover .lista-Pages{ 
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.Blog-F{
+    bottom: 22px;
+}
+
+.Blog-F:hover .lista-Blog{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.li-Gallery{
+    bottom: 22px;
+    left: 9px;
+}
+
+#logo{
+    width: 12%;
+    width: 66.84px;
+    height: 79.38px;
+}
+
+#sec1{
+    height: 62vh;
+    background-repeat: no-repeat;
+    background-image: url(https://preview.colorlib.com/theme/rooftop/img/header-bg.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.text-image{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.frase-img--principal{
+    font-size: 62px;
+    font-weight: 500;
+    letter-spacing: 10.8px;
+}
+
+hr{
+    margin: 16px 0;
+}
+
+.setabrancaBGI{
+    position:absolute;
+    top: 421px;
+    left: 213px;
+}
+
+.HomeAMenu{
+    font-size: 26px;
+}
+
+.products{
+    background-color: #faf5f0;
+    position: absolute;
+    display: grid;
+    place-items: center;
+    right: 395px;
+    padding: 100px 150px;
+}
+
+.products>h2{
+    font-style: italic;
+}
+
+h2{
+    font-size: 30px;
+}
+
+dd{
+    color: gray;
+}
+
+.meiosdd{
+    padding-bottom: 20px;
+}
+
+.finaisdd{
+    padding-bottom: 100px;
+}
+
+.hrs-products{
+    width: 150px;
+    margin-top: 10px;
+}
+
+.dailyFoodQuad{
+    width: 247px;
+    position: absolute;
+    right: 1300px;
+    bottom: -650px;
+}
+
+.tit-dailyFoodQuad{
+    font-size: 80px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+
+.p-dailyFoodQuad{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 100px;
+    line-height: 30px;
+    color: gray;
+}
+
+.seefullmenu{
+    padding: 20px 40px;
+    background-color: #ad9966;
+    color: white;
+    border: 1px solid #ad9966;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: roboto, sans-serif;
+    letter-spacing: 2px;
+}
+
+.seefullmenu:hover{
+    background: transparent;
+    color: #ad9966;
+}
+
+.imgchefe-dfQUad{
+    position: relative;
+    bottom: 2502px;
+}
+
+
+.BookATableQuad{
+    position: absolute;
+    right: 369px;
+    bottom: -3430px;
+}
+
+.tit-BookATableQuad{
+    font-size: 60px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+
+.p-BookATableQuad{
+    display: block;
+    font-size: 20px;
+    color: gray;
+    white-space: pre-wrap;
+}
+
+.imgChefeETexto{
+    position: absolute;
+    bottom: -4324px;
+    right: 1082px;
+    line-height: 30px;
+}
+
+.tit-imgChefeETexto{
+    font-size: 80px;
+    line-height: 80px;
+    margin-bottom: 40px;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+
+.p-imgChefeETexto{
+    color: gray;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.img-chefe2{
+    position: absolute;
+    bottom: -4325px;
+    right: 370px;
+}
+
+.img-roll{
+    position: absolute;
+    bottom: -5100px;
+    right: 365px;
+}
+
+.MN-FrangobatatasRoll{
+    width: 45%;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 63px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.MN{
+    font-size: 32px;
+    position: relative;
+    left: 124px;
+}
+
+.hr-MN{
+    width: 150px;
+    position: relative;
+    left: 135px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.p-MN{
+    position: relative;
+    color: gray;
+    left: 36px;
+    font-size: 20px;
+}
+
+.setasPretas{
+    position: absolute;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    filter: opacity(20%);
+    bottom: 196px;
+}
+
+.setaDireita{
+    padding-left: 29px;
+}
+
+.setaDireita:hover{
+    filter: opacity(100%);
+}
+
+.setaEsquerda{ 
+    padding: 5px;
+    left: -87px;
+}
+
+.setaEsquerda:hover{
+    filter: opacity(100%);
+}
+
+footer{
+    background-color: #04091e;
+    padding: 220px 0;
+    display: block;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 61px;
+    margin-top: 30px;
+    position: relative;
+    top: 2707px;
+}
+
+.infos{
+    position: relative;
+    bottom: 151px;
+    left: 134px;
+}
+
+.info-News{
+    position: relative;
+    bottom: -3px;
+}
+
+.infos-childs{
+    display: inline-block;
+    margin: 37px;
+}
+
+.infos h3{
+    color: #faf5f0;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    position: relative;
+    left: 39px;
+    letter-spacing: 3px;
+}
+
+.topics-a{
+    list-style-type: none;
+    font-size: 23px;
+}
+
+.topics-a a{
+    color: #777777;
+    line-height: 40px;
+}
+
+.topics-a a:hover{
+    color: #ad9966;
+    transition: 0.5s;
+}
+
+.email{
+    height: 43px;
+    width: 250px;
+    border-radius: 0;
+    background-color: #04091e;
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+    margin-top: 40px;
+    color: white;
+}
+
+.btn-inputEmail{
+    padding: 12px;
+    background-color: #ad9966;
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    position: relative;
+    bottom: 43px;
+    right: -289px;
+}
+
+.Footer-ARR{
+    position: absolute;
+    bottom: 31px;
+    right: 1161px;
+    color: gray;
+    font-size: 20px;
+}
+
+.lista-Pages{
+    background-color: white;
+    height: 150px;
+    width: 120px;
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0;
+    line-height: 55px;
+    font-size: 20px;
+    left: 860px;
+    bottom: -163px;
+}
+
+.a-contact{
+    position: relative;
+    left: -23px;
+    top: 13px;
+}
+
+.a-Elements{
+    bottom: -15px;
+    left: -17px;
+    position: relative;
+}
+
+.lista-Blog{
+    background-color: white;
+    height: 150px;
+    width: 120px;
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0;
+    line-height: 55px;
+    font-size: 20px;
+    left: 940px;
+    bottom: -163px;
+}
+
+.lista-Blog a{
+    position: relative;
+    display: block;
+    top: 15px;
+}
+
+.a-blog{
+    position: relative;
+    bottom: 10px;
+    left: -30px;
+}
+
+.a-blogDetails{
+    white-space: nowrap;
+}
+
